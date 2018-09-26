@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Summary: Summarize Selected Text",
-        "command": "summary"
+        "caption": "Summarize: Sum Selected Numbers",
+        "command": "Summarize"
     }
     ]

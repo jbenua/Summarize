@@ -1,4 +1,4 @@
 [
-	{"caption":"Summarize Text",
-	"command" : "summary"}
+	{"caption":"Sum Numbers",
+	"command" : "Summarize"}
 ]
