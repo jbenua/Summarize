@@ -12,7 +12,11 @@ class summaryCommand(sublime_plugin.TextCommand):
             if region_text:
                 print(region_text)
                 for number in region_text.split():
-                    summa += int(number)
+                    summa += float(number)
 
             self.view.replace(edit, region, '')
+
+        if summa.is_integer():
+            summa = int(summa)
+
         self.view.replace(edit, last, str(summa))
